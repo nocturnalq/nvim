@@ -38,4 +38,4 @@ map("n", "<C-t>", ":Neotree focus<CR>", "File Tree focus")
 map("n", "<C-c>", ":Neotree close<CR>", "File Tree close")
 
 -- LazyGit
-map("n", "<leader>gg", ":LazyGit<CR>", "OpenLazyGit")
+map("n", "<leader>gg", ":LazyGit<CR>", "Open LazyGit")
