@@ -14,4 +14,22 @@ https://github.com/tree-sitter/tree-sitter/releases/tag/v0.26.8
 ## Install lazygit
 `brew install lazygit`
 
+## Buffers
+
+| Key | Action |
+|-----|--------|
+| `]b` / `[b` | Next / previous buffer |
+| `<leader>bd` | Close current buffer (LazyVim default) |
+
+## Neo-tree: creating files
+
+Focus the tree with `<C-t>`, then:
+
+| Key | Action |
+|-----|--------|
+| `a` | Create new file (type name, Enter to confirm) |
+| `A` | Create new directory |
+| `d` | Delete selected file/directory |
+| `r` | Rename selected file/directory |
+
 
