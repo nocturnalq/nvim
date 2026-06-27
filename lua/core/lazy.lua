@@ -19,7 +19,7 @@ vim.opt.rtp:prepend(lazypath)
 require("lazy").setup({
 	spec = {
 		-- LazyVim base distro (must be first)
-		{ "LazyVim/LazyVim", import = "lazyvim.plugins", opts = { colorscheme = "vague" } },
+		{ "LazyVim/LazyVim", import = "lazyvim.plugins", opts = { colorscheme = "olive-crt" } },
 		-- your own plugins
 		{ import = "plugins" },
 	},
@@ -27,7 +27,7 @@ require("lazy").setup({
 	-- colorscheme that will be used when installing plugins.
 	install = {
 		missing = true,
-		colorscheme = { "vague" },
+		colorscheme = { "olive-crt" },
 	},
 	-- automatically check for plugin updates
 	checker = {

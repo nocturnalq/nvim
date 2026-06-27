@@ -1,3 +1,3 @@
 return {
-	{ "vague-theme/vague.nvim" },
+	{ "vimcolorschemes/olive-crt.nvim" },
 }
